@@ -1,0 +1,9 @@
+Criar uma classe para cada imposto
+1-Dentro da pasta src criar a pasta impostos.
+2-Dentro da pasta impostos criar a classe icms.php.
+3-Dentro da pasta impostos criar a classe iss.php.
+4-dentro da pasta Impostos criar a interface Imposto.php.
+5-Implementar a interface Imposto em Icms e em Iss.
+6-Na CalculadoraDeImpostos trocar o string $nomeImposto por Imposto $imposto
+7-Na CalculadoraDeImpostos apagar o conteúdo e retornar
+return $imposto->calculaImposto($orcamento);
