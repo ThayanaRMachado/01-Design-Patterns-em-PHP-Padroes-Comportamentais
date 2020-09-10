@@ -1,0 +1,3 @@
+Criar calculadora de impostos
+1-Na pasta src criar a classe CalculadoraDeImpostos.php.
+2-Na raiz do projeto criar o arquivo testes.php.
