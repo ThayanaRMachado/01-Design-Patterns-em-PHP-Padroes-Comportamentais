@@ -1,0 +1,5 @@
+Configurando o projeto
+1-Criar o projeto
+2-Dentro da pasta src criar a classe Orcamento
+3-Criar o composer.json para configurar o autoloader
+4-No terminal, na pasta do projeto executar composer dump-autoload
