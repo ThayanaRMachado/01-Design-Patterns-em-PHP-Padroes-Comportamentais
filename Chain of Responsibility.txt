@@ -1,0 +1,9 @@
+2.	Chain of Responsibility
+2.2.1- Criando a calculadora de descontos
+Na pasta src criar a classe CalculadoraDeDescontos.
+ 
+2.2.2-Na classe Orcamento, adicionar o atributo quantidadeDeItens.
+  
+2.2.3-Na classe testes.php, comentar tudo o que está abaixo do require.
+ 
+2.2.4-No prompt, rodar o comando php testes.php, primeiro testando um orçamento de 7 itens, depois estando um orçamento de 5 itens.
