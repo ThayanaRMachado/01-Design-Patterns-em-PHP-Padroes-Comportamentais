@@ -4,9 +4,9 @@ namespace Alura\DesignPattern\AcoesAoGerarPedido;
 
 use Alura\DesignPattern\Pedido;
 
-class CriarPedidoNoBanco implements \SplObserver
+class CriarPedidoNoBanco implements AcaoAposGerarPedido
 {
-    public function update(\SplSubject $pedido): void
+    public function executaAcao(Pedido $pedido): void
     {
         echo "Salvando pedido no banco de dados";
     }

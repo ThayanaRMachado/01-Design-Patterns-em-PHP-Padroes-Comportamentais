@@ -8,3 +8,4 @@ class Pedido
     public \DateTimeInterface $dataFinalizacao;
     public Orcamento $orcamento;
 }
+

@@ -2,8 +2,7 @@
 
 namespace Alura\DesignPattern\EstadosOrcamento;
 
-use Allura\DesignPattern\Orcamento;
-use Alura\DesignPattern\EstadosOrcamento\EstadoOrcamento;
+use Alura\DesignPattern\Orcamento;
 
 class Finalizado extends EstadoOrcamento
 {
@@ -11,6 +10,4 @@ class Finalizado extends EstadoOrcamento
     {
         throw new \DomainException('Um orçamento finalizado não pode receber desconto');
     }
-
 }
-

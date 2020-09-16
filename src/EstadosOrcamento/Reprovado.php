@@ -2,8 +2,7 @@
 
 namespace Alura\DesignPattern\EstadosOrcamento;
 
-use Allura\DesignPattern\Orcamento;
-use Alura\DesignPattern\EstadosOrcamento\EstadoOrcamento;
+use Alura\DesignPattern\Orcamento;
 
 class Reprovado extends EstadoOrcamento
 {

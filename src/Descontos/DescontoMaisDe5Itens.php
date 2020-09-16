@@ -15,3 +15,4 @@ class DescontoMaisDe5Itens extends Desconto
         return $this->proximoDesconto->calculaDesconto($orcamento);
     }
 }
+
